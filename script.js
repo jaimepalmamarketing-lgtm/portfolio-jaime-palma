@@ -17,6 +17,7 @@ document.querySelectorAll('.open-dialog').forEach(button => {
     if (dialog && typeof dialog.showModal === 'function') dialog.showModal();
   });
 });
+
 document.querySelectorAll('.writing-dialog').forEach(dialog => {
   dialog.querySelector('.dialog-close')?.addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', e => {
@@ -39,8 +40,8 @@ if (instagramButton) {
       iframe.allow = 'autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share';
       slot.appendChild(iframe);
       slot.dataset.loaded = 'true';
-      instagramButton.textContent = 'Ocultar publicación';
       slot.hidden = false;
+      instagramButton.textContent = 'Ocultar publicación';
     } else {
       slot.hidden = !slot.hidden;
       instagramButton.textContent = slot.hidden ? 'Ver aquí' : 'Ocultar publicación';
