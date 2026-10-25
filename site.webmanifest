@@ -1,0 +1,9 @@
+{
+  "name": "Jaime Palma · Portfolio",
+  "short_name": "Jaime Palma",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d315a",
+  "icons": []
+}
