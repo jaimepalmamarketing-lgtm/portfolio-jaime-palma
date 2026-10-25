@@ -1,21 +1,17 @@
 # Portfolio · Jaime Palma
 
-Portfolio estático preparado para GitHub Pages.
+Sitio estático preparado para GitHub Pages. No requiere compilación, dependencias ni servicios de pago.
 
-## Publicar en GitHub Pages
-
-1. Crea un repositorio público en GitHub, por ejemplo `portfolio-jaime-palma`.
-2. Sube **todo el contenido de esta carpeta** a la raíz del repositorio.
-3. En GitHub entra en **Settings → Pages**.
-4. En **Build and deployment**, elige **Deploy from a branch**.
-5. Selecciona la rama `main` y la carpeta `/ (root)`.
-6. Guarda. GitHub mostrará la URL pública cuando termine el despliegue.
-
-No necesita instalación, compilación ni servicios de pago.
+## Publicar
+1. Sube **todo el contenido de esta carpeta** a la raíz del repositorio.
+2. En GitHub: **Ajustes → Páginas**.
+3. Fuente: **Implementar desde una rama**.
+4. Rama: `main` o `principal` (la que use tu repositorio) y carpeta `/(root)`.
+5. Guarda.
 
 ## Archivos principales
-- `index.html`: portfolio.
+- `index.html`: contenido del portfolio.
 - `styles.css`: diseño responsive.
-- `script.js`: menú móvil.
-- `assets/`: imágenes y PDFs.
+- `script.js`: menú, muestras de redacción e Instagram bajo demanda.
+- `assets/`: imágenes, CV, favicon y otros recursos.
 - `.nojekyll`: evita procesamiento innecesario de Jekyll.
